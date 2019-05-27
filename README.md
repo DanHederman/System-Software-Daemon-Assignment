@@ -32,4 +32,16 @@ The following are the requirements for the assignment as choosen by the module l
 * It should be possible to contact the Daemon and perform a backup at any time.
 * A message queue should be implemented to allow all process to report success or failure of the process.
 * Error logging and reporting should be included.
-* Create a make file to manage the creation of the executables.
+* Create a makefile to manage the creation of the executables.
+
+## Before Running
+
+The structure of the internal, external and backup sites needs to be created. For this project specifically the base path is /etc/www/html. From here there is a live, backup and internal directory for each part of the assignment.
+
+## How to Run (Linux)
+
+* Download and unzip the code onto the Linux desktop.
+* Using a linux terminal, cd into the assignment folder.
+* Use the make command to create the executable files. 
+* The server can then be started using ./Server.
+* Another terminal window can be used to contact the server to manually invoke a backup from the same direcctory.
