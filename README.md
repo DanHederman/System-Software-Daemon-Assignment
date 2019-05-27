@@ -34,9 +34,15 @@ The following are the requirements for the assignment as choosen by the module l
 * Error logging and reporting should be included.
 * Create a makefile to manage the creation of the executables.
 
+## General Assumptions.
+
+* The company has only on server.
+* Backups can be made to a different folder on the server.
+* The intranet and live sites can be sub-directories of /var/www/html
+
 ## Before Running
 
-The structure of the internal, external and backup sites needs to be created. For this project specifically the base path is /etc/www/html. From here there is a live, backup and internal directory for each part of the assignment.
+The structure of the internal, external and backup sites needs to be created. For this project specifically the base path is /var/www/html. From here there is a live, backup and internal directory for each part of the assignment.
 
 ## How to Run (Linux)
 
@@ -45,3 +51,7 @@ The structure of the internal, external and backup sites needs to be created. Fo
 * Use the make command to create the executable files. 
 * The server can then be started using ./Server.
 * Another terminal window can be used to contact the server to manually invoke a backup from the same direcctory.
+
+## Video of Project
+
+* https://www.youtube.com/watch?v=fpTNQJA4tBc&t=258s
