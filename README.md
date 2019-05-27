@@ -52,6 +52,6 @@ The structure of the internal, external and backup sites needs to be created. Fo
 * The server can then be started using ./Server.
 * Another terminal window can be used to contact the server to manually invoke a backup from the same direcctory.
 
-## Video of Project
+## Video Demo
 
 * https://www.youtube.com/watch?v=fpTNQJA4tBc&t=258s
